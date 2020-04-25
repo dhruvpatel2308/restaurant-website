@@ -77,7 +77,7 @@ body{
 	vertical-align: center;
 }
 
-.hover1
+#center1 .hover1
 {
 	background-image: url("d1.jpg");
 
@@ -102,7 +102,7 @@ body{
 	text-align: center;
 	vertical-align: center;
 }
-.hover2
+#center2 .hover2
 {
 	background-image: url("drink1.jpg");
 	
@@ -128,7 +128,7 @@ body{
 	vertical-align: center;
 }
 
-.hover3
+#center3 .hover3
 {
 	background-image: url("table.png");
 
