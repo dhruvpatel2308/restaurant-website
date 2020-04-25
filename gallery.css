@@ -1,0 +1,180 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+#nav-right ul{
+	overflow: hidden;
+	font-size: 17px
+	padding: 14px 15px 150px 150px;
+	border-spacing: : 10;
+	list-style-type: none;
+
+}
+#nav-right li
+{
+	word-spacing: 8px;
+	padding: 15px;
+
+	display: inline;}
+#nav-right li:hover{
+	border-bottom: 2px solid #F117B4;
+	 
+}
+#nav-right .active{
+	color:orange;
+}
+#nav-right a{
+	color: black;
+	font-size: 17px
+	padding: 14px 150px 150px 150px;
+	
+	text-decoration: none;
+}
+
+#nav-right a:hover{
+	color:red;
+	text-decoration: none;
+}
+#nav-right a:visited{
+	text-decoration: none;
+}
+#nav-right {
+	font-size: 25px;
+	
+	float:right;
+}
+.fa-facebook{
+	color:black;
+}
+.fa-twitter{
+	color:black;
+}
+.fa-instagram{
+	color:black;
+
+}
+
+.f1{
+	position: relative;
+	top:200px;
+	left:100px;
+	max-width: 300px;
+	max-height: 300px;
+}
+.f2{
+	position: relative;
+	top:-100px;
+	left:500px;
+	max-width: 300px;
+	max-height: 300px;
+}
+.f3{
+	position: relative;
+	top:-400px;
+	left:900px;
+	max-width: 300px;
+	max-height: 300px;
+}
+.f4{
+	position: relative;
+	max-height: 300px;
+	top:-300px;
+	left:100px;
+	width: 35%;
+}
+.f5{
+	position: relative;
+	top:-600px;
+	max-height: 300px;
+	left:500px;
+	width: 35%;
+}
+.f6{
+	position: relative;
+	top:-900px;
+	left:900px;
+	max-height: 300px;
+	width: 35%;  	
+}
+.f7{
+	position: relative;
+	top:-800px;
+	left:100px;
+	width: 35%;
+	max-height: 300px;
+}
+.f8{
+	position: relative;
+	top:-1100px;
+	left:500px;
+	width: 35%;
+	max-height: 300px;
+}
+.f9{
+	position: relative;
+	top:-1400px;
+	left:900px;
+	width: 35%;  	
+}
+.f10{
+	position: relative;
+	top:-1300px;
+	left:200px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+   
+}
+.flip-card1 {
+  background-color: transparent;
+  width: 1000px;
+  height: 700px;
+  perspective: 1000px;
+   
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(-180deg);
+}
+.flip-card1:hover .flip-card-inner {
+  transform: rotateY(-180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(-180deg);
+}
+
+/*img {vertical-align: middle;}*/
+
+/* Slideshow container */

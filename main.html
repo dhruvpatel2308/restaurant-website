@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#center1').hover(function() {
+            $('body').addClass('hover1');
+        }, function(){
+            $('body').removeClass('hover1');
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#center2').hover(function() {
+            $('body').addClass('hover2');
+        }, function(){
+            $('body').removeClass('hover2');
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#center3').hover(function() {
+            $('body').addClass('hover3');
+        }, function(){
+            $('body').removeClass('hover3');
+        });
+      });
+    </script>
+</head>
+<body>
+	<div id="nav-right">
+		<ul>
+			<li><a class="active" href="main.html">Home</a></li>
+	  		<li><a href="menu.html">Menu</a></li>
+	  		<li><a href="gallery.html">Gallery</a></li>
+	  		<li><a href="about.html">About</a></li>
+	  		<li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+	  		<li><a href="https://twitter.com/login" class="fa fa-twitter"></a></li>
+	  		<li><a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram"></a></li>
+	  	</ul>
+	</div>
+	<br>
+	 
+	<nav>
+	<ul>
+		<div id="center1">
+		<li><a href="#">EAT</a></li></div>
+		<div id="center2">
+		<li><a href="#">DRINK</a></li></div>
+		<div id="center3">
+		<li><a href="#">VISIT</a></li></div>
+	</ul></nav>
+	
+</div>
+</body>
+</html>
