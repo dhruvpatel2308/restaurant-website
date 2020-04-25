@@ -1,5 +1,5 @@
 body{
-	background:url('img.jpg');
+	background:url("img.jpg");
 	background-repeat:no-repeat;
 	background-size: cover;
 	padding: 0px;
@@ -79,7 +79,7 @@ body{
 
 .hover1
 {
-	background-image: url('d1.jpg');
+	background-image: url("d1.jpg");
 
 }
 #center2{
@@ -104,7 +104,7 @@ body{
 }
 .hover2
 {
-	background-image: url('drink1.jpg');
+	background-image: url("drink1.jpg");
 	
 }
 #center3{
@@ -130,7 +130,7 @@ body{
 
 .hover3
 {
-	background-image: url('table.png');
+	background-image: url("table.png");
 
 }
 
